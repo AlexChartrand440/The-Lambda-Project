@@ -1,0 +1,45 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.link {
+
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px 1px black;
+    transition: transform .2s ease-in-out;
+
+}
+
+.profile-image {
+
+    width: 75px;
+    border-radius: 100%;
+
+}
+
+.name-text { margin-left: 15px; }
+
+.link-container { 
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.link:hover { transform: scale(1.2); }
+
+/* @keyframes grow {
+    
+    from { transform: scale(0); }
+    to { transform: scale(10); }
+    
+} */
