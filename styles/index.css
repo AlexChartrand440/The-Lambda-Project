@@ -14,7 +14,7 @@
     height: fit-content;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 1px 1px 5px 1px black;
+    box-shadow: 0px 0px 10px 0px black;
     transition: transform .2s ease-in-out;
 
 }
