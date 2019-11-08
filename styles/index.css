@@ -18,9 +18,12 @@
     transition: transform .2s ease-in-out;
 
 }
+.link:hover{
+    background-color: #DAE7F9;
+}
 
 .profile-image {
-
+    height: 75px;
     width: 75px;
     border-radius: 100%;
 
